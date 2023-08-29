@@ -232,7 +232,7 @@ def _OnehotFeaturizer(dict_graphs, MON_SMILES, BOND_SMILES):
     return featurized_dict
 
 
-def networkx_feat(TXT_DATA_PATH, MON_SMILES, BOND_SMILES='./tables/SMILES_bond.txt', FEAT = 'fp', FP_RADIUS_MON = None, FP_RADIUS_BOND = 2, FP_BITS_MON = None, FP_BITS_BOND = 2048):
+def networkx_feat(TXT_DATA_PATH, MON_SMILES, BOND_SMILES='./tables/SMILES_bond.txt', FEAT = 'fp', FP_RADIUS_MON = 2, FP_RADIUS_BOND = 2, FP_BITS_MON = 2048, FP_BITS_BOND = 2048):
     '''
     Processes all .txt files of a macromolecule type into a dictionary of featurized NetworkX graphs
     
