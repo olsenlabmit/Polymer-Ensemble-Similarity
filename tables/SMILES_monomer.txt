@@ -1,0 +1,8 @@
+Molecule,SMILES
+EX1,*C(C)C(=O)OCC(C)(COC(=O)C(*)C)COC(=O)C(*)C
+EX2,*SC(=S)SCCCC
+RX1,*CC(*)c1ccccc1
+RX2,*CC(*)c1ccc(C(=O)OC)cc1
+EX3,*C(C)C(=O)OCC(COC(=O)C(*)C)(COC(=O)C(*)C)COC(=O)C(*)C
+RX3,*C[C@H](C)*
+RX4,*C[C@@H](C)*
