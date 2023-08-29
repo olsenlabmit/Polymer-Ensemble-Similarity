@@ -13,6 +13,21 @@ The repository is intended for the following use cases:
 - Allow for full reproducibility of the results in the manuscript
 
 
+## Running the code
+
+### Running notebooks in Google Colab
+
+If you are interested in running one or more notebooks in [Google Colab](https://colab.research.google.com/), first click on the relevant links below.
+
+* [Example1_Two_Component_Polymer_Ensemble](./notebook/Example1_Two_Component_Polymer_Ensemble_Colab.ipynb)
+
+
+Then open the colab badge <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="75" height="15"/> in the notebook.
+
+It will open a colab notebook. Then you can run the notebook as normal. All the required libraries and functions are present in the colab notebook. 
+If you cannot successfully open the colab badge, download the notebook and upload to colab.
+
+
 ## Contact
 
 Jiale Shi, PhD  
