@@ -13,25 +13,6 @@ The repository is intended for the following use cases:
 - Allow for full reproducibility of the results in the manuscript
 
 
-### Using the codebase
-To use the code with an Anaconda environment, follow the installation procedure here - 
-```
-conda create -n polymer_ensemble python=3.9
-conda activate polymer_ensemble
-conda install pytorch -c pytorch
-conda install -c conda-forge matplotlib
-conda install -c rdkit rdkit
-conda install -c dglteam dgl
-conda install -c anaconda scikit-learn
-conda install -c anaconda networkx
-conda install seaborn
-conda install -c conda-forge svglib
-conda install -c conda-forge umap-learn
-conda install -c conda-forge grakel
-conda install -c conda-forge pyomo
-conda install -c conda-forge coincbc
-```
-
 ## Contact
 
 Jiale Shi, PhD  
