@@ -1,0 +1,27 @@
+SMILES
+EX1
+RX1
+cc_bond
+
+
+MONOMERS
+1 EX1
+2 RX1
+3 RX1
+4 RX1
+5 RX1
+6 RX1
+7 RX1
+8 RX1
+9 RX1
+
+
+BONDS
+1 2 cc_bond
+2 3 cc_bond
+1 4 cc_bond
+4 5 cc_bond
+1 6 cc_bond
+6 7 cc_bond
+7 8 cc_bond
+8 9 cc_bond
