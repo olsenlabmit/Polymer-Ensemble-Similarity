@@ -21,6 +21,7 @@ If you are interested in running one or more notebooks in [Google Colab](https:/
 
 * [Example1_Two_Component_Polymer_Ensemble](./notebook/Example1_Two_Component_Polymer_Ensemble_Colab.ipynb)
 * [Example3_Nonlinear_Star_Polymer_Ensemble](./notebook/Example3_Nonlinear_Star_Polymer_Ensemble_Colab.ipynb)
+* [Example4_Polymer_Ensembles_Represented_by_Experimental_Molecular_Mass_Distributions](./notebook/Example4_Polymer_Ensembles_Represented_by_Experimental_Molecular_Mass_Distributions_Colab.ipynb)
 
 
 Then open the colab badge <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="75" height="15"/> in the notebook.
