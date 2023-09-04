@@ -9,7 +9,7 @@ In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipe
 
 The repository is intended for the following use cases:
 
-- Illustrate the EMD method for polymer ensemble calculation in the manuscript
+- Illustrate the EMD method for polymer ensemble similarity calculation in the manuscript
 - Allow for full reproducibility of the results in the manuscript
 
 
