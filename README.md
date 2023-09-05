@@ -8,14 +8,14 @@ Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, K
 In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles. 
 
 #### Earth Mover's Distance (EMD) between P and Q
-\[
-\text{EMD}(P, Q) = \min_{F} \frac{\sum_{i=1}^{m}\sum_{j=1}^{n} f_{i,j} \cdot d_{i,j}}{\sum_{i=1}^{m}\sum_{j=1}^{n} f_{i,j}} 
-\]
+
+$ \text{EMD}(P, Q) = \min_{F} \frac{\sum_{i=1}^{m}\sum_{j=1}^{n} f_{i,j} \cdot d_{i,j}}{\sum_{i=1}^{m}\sum_{j=1}^{n} f_{i,j}} $
+
 ##### Subject to:
-- \( f_{i,j} \geq 0, \text{for any } 1 \leq i \leq m, 1 \leq j \leq n \) (Equation 3a)
-- \( \sum_{j=1}^{n} f_{i,j} = w_{p_i}, \text{for any } 1 \leq i \leq m \) (Equation 3b)
-- \( \sum_{i=1}^{m} f_{i,j} = w_{q_j}, \text{for any } 1 \leq j \leq n \) (Equation 3c)
-- \( \sum_{i=1}^{m}\sum_{j=1}^{n} f_{i,j} = \sum_{i=1}^{m} w_{p_i} = \sum_{j=1}^{n} w_{q_j} = 1 \) (Equation 3d)
+- $( f_{i,j} \geq 0, \text{for any } 1 \leq i \leq m, 1 \leq j \leq n \) (Equation 3a)$
+- $( \sum_{j=1}^{n} f_{i,j} = w_{p_i}, \text{for any } 1 \leq i \leq m \) (Equation 3b)$
+- $( \sum_{i=1}^{m} f_{i,j} = w_{q_j}, \text{for any } 1 \leq j \leq n \) (Equation 3c)$
+- $( \sum_{i=1}^{m}\sum_{j=1}^{n} f_{i,j} = \sum_{i=1}^{m} w_{p_i} = \sum_{j=1}^{n} w_{q_j} = 1 \) (Equation 3d)$
 
 
 The $d_{i,j}$ between one polymer molecule $p_i$ and another polymer molecule $q_j$ is calculated through graph edit distance, and this part of the code for calculating $d_{i,j}$ builds on [GLAMOUR](https://github.com/learningmatter-mit/GLAMOUR).
