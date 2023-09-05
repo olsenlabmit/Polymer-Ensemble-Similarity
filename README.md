@@ -5,7 +5,7 @@ This repository supports the following manuscript, which has been submitted for 
 
 Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao,  Debra J. Audus, Bradley D. Olsen (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", ACS Polymer Au, submitted.
 
-In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles.
+In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles. The $d_{i,j}$ between one polymer molecule $p_i$ and another polymer molecule $q_j$ is calculated through graph edit distance, and this part of the code for calculating $d_{i,j}$ builds on [GLAMOUR](https://github.com/learningmatter-mit/GLAMOUR).
 
 The repository is intended for the following use cases:
 
