@@ -5,7 +5,19 @@ This repository supports the following manuscript, which has been submitted for 
 
 Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao,  Debra J. Audus, Bradley D. Olsen (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", ACS Polymer Au, submitted.
 
-In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles. The $d_{i,j}$ between one polymer molecule $p_i$ and another polymer molecule $q_j$ is calculated through graph edit distance, and this part of the code for calculating $d_{i,j}$ builds on [GLAMOUR](https://github.com/learningmatter-mit/GLAMOUR).
+In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles. 
+$
+EMD(P,Q)=min┬F⁡∑_(i=1)^m▒∑_(j=1)^n▒(f_(i,j)⋅d_(i,j) ) /(∑_(i=1)^m▒∑_(j=1)^n▒f_(i,j) )=min┬F⁡∑_(i=1)^m▒∑_(j=1)^n▒(f_(i,j)⋅d_(i,j) ) 	(3a)
+Subject to f_(i,j)≥0,for any 1≤i≤m,1≤j≤n
+(3b)
+∑_(j=1)^n▒f_(i,j) =w_(p_i ),for any 1≤i≤m
+(3c)
+∑_(i=1)^m▒f_(i,j) =w_(q_j ),for any 1≤j≤n
+(3d)
+∑_(i=1)^m▒∑_(j=1)^n▒f_(i,j) =∑_(i=1)^m▒w_(p_i ) =∑_(j=1)^n▒w_(q_j ) =1	(3e)
+
+$
+The $d_{i,j}$ between one polymer molecule $p_i$ and another polymer molecule $q_j$ is calculated through graph edit distance, and this part of the code for calculating $d_{i,j}$ builds on [GLAMOUR](https://github.com/learningmatter-mit/GLAMOUR).
 
 The repository is intended for the following use cases:
 
