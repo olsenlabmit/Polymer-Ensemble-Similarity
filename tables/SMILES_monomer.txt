@@ -1,8 +1,8 @@
 Molecule,SMILES
+R0,*CC(*)c1ccccc1
+R1,*CC(*)c1ccc(C(=O)OC)cc1
 E1,*C(C)C(=O)OCC(C)(COC(=O)C(*)C)COC(=O)C(*)C
 E2,*SC(=S)SCCCC
-R1,*CC(*)c1ccccc1
-R2,*CC(*)c1ccc(C(=O)OC)cc1
 E3,*C(C)C(=O)OCC(COC(=O)C(*)C)(COC(=O)C(*)C)COC(=O)C(*)C
-R3,*C[C@H](C)*
-R4,*C[C@@H](C)*
+R0T,*C[C@H](C)*
+R1T,*C[C@@H](C)*
