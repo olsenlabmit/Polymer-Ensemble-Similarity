@@ -1,0 +1,25 @@
+SMILES
+E1
+R1
+cc_bond
+
+
+MONOMERS
+1 E1
+2 R1
+3 R1
+4 R1
+5 R1
+6 R1
+7 R1
+8 R1
+
+
+BONDS
+1 2 cc_bond
+1 3 cc_bond
+3 4 cc_bond
+4 5 cc_bond
+1 6 cc_bond
+6 7 cc_bond
+7 8 cc_bond
