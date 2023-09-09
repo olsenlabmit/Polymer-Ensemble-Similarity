@@ -15,7 +15,6 @@ def graph(tmp_graph):
     pos = nx.spring_layout(tmp_graph)  
 
     plt.figure(figsize=(8, 8))
-    plt.figure()
     plt.axis('off')
 
     color_list = []
