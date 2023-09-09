@@ -52,7 +52,7 @@ def graph(tmp_graph):
     for i in range(0,len(node_set)):
         plt.gca().scatter([],[], color=color_dict[node_set[i]] , label=node_set[i])
     
-    plt.legend(loc='best',fontsize = 10)
+    plt.legend(loc='lower right',fontsize = 10)
     plt.show()
 
     print(node_dict)
