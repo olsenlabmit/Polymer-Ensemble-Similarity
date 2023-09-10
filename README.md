@@ -20,7 +20,8 @@ The repository is intended for the following use cases:
 If you are interested in running one or more notebooks in [Google Colab](https://colab.research.google.com/), first, click on the relevant links below.
 
 * [Example1_Two_Component_Polymer_Ensemble](./notebook/Example1_Two_Component_Polymer_Ensemble_Colab.ipynb)
-* [Example2_First_order_Markov_Copolymer_Ensemble](./notebook/Example2_First_order_Markov_Copolymer_Ensemble_Colab.ipynb)
+* [Example2_First_order_Markov_Copolymer_Ensemble_onehot](./notebook/Example2_First_order_Markov_Copolymer_Ensemble_onehot_Colab.ipynb)
+* [Example2_First_order_Markov_Copolymer_Ensemble_fp](./notebook/Example2_First_order_Markov_Copolymer_Ensemble_fp_Colab.ipynb)
 * [Example3_Nonlinear_Star_Polymer_Ensemble](./notebook/Example3_Nonlinear_Star_Polymer_Ensemble_Colab.ipynb)
 * [Example4_Polymer_Ensembles_Represented_by_Experimental_Molecular_Mass_Distributions](./notebook/Example4_Polymer_Ensembles_Represented_by_Experimental_Molecular_Mass_Distributions_Colab.ipynb)
 
