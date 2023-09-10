@@ -1,4 +1,4 @@
-The file [SMILES_repeatunit.txt](https://github.com/olsenlabmit/Polymer-Ensemble-Similarity/blob/main/tables/SMILES_repeatunit.txt) is the tables for Repeat Units.
+The file [SMILES_repeatunit.txt](https://github.com/olsenlabmit/Polymer-Ensemble-Similarity/blob/main/tables/SMILES_repeatunit.txt) is the tables for repeat units.
 
 The function of the tables is to specify the chemistry of the repeat unit and works with the txt files of graph representation in [dataset](https://github.com/olsenlabmit/Polymer-Ensemble-Similarity/tree/main/dataset).
 
