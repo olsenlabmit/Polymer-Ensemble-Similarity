@@ -19,7 +19,7 @@ $d(g_1, g_2) = 1- \exp(-\frac{\alpha \cdot GED(g_1, g_2)}{(N_1 + N_2)/2})$
 
 where $g_i$ is the graph representation of one polymer molecule, $N_i$ is the number of nodes in graph $g_i$, $\alpha$ is a tunable parameter with the default value being 1. [Reference1](https://arxiv.org/abs/1808.05689), [Reference2](https://doi.org/10.1021/acs.macromol.3c00761)
 
-$f_{i,j}$ is the flow or amount of weight at $p_i$ which is transported to $q_j$, and $F=[f_{i,j} ]$ denotes all the flows between P and Q. Here,  $d_{i,j} \cdot f_{i,j}$ is the cost for each individual flow. 
+$f_{i,j}$ is the flow or amount of weight at $p_i$ which is transported to $q_j$, and $F=[f_{i,j} ]$ denotes all the flows between $P$ and $Q$. Here,  $d_{i,j} \cdot f_{i,j}$ is the cost for each individual flow. 
 
 Once $EMD (P,Q)$ is calculated, the similarity score between $P$ and $Q$ is
 
