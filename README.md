@@ -3,17 +3,14 @@
 
 This repository supports the following manuscript, which has been submitted for peer-review.
 
-Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao,  Debra J. Audus, Bradley D. Olsen (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", ACS Polymer Au, submitted.
+Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao,  Debra J. Audus, Bradley D. Olsen (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", *ACS Polymer Au*, submitted.
 
 In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles.
 
-<img src="https://drive.google.com/uc?export=view&id=1dCHj4jtjiJOJ3uOdmX8EAl3SoGlDbvnF"  width="80%">
+<img src="./EMD_eq.png"  width="80%">
 
 One polymer ensemble is defined as $P = \{(p_1,w_{p_1}) ,(p_2,w_{p_2}),...,(p_i,w_{p_i}),...,(p_m,w_{p_m})\}$ has $m$ types of polymer chains, where $p_i$ represents a type of polymer chain and  $w_{p_i}>0$ is its corresponding weight, which can be the mole fraction of this polymer chain in the polymer ensemble. Similarly, the second ensemble $Q = {(q_1,w_{q_1}),(q_2,w_{q_2}),...,(q_j,w_{q_j}),...,(q_n,w_{q_n})}$ has $n$ types of polymer chains. The sums of the weights for $P$ and $Q$ are both normalized and equal to one.
 
-Once $EMD (P,Q)$ is calculated, the similarity score between $P$ and $Q$ is
-
-$S(P,Q) = 1- EMD (P,Q)$
 
 
 The distance ($d_{i,j}$) between one polymer molecule $p_i$ and another polymer molecule $q_j$ is calculated through graph edit distance. This part of the code builds on [GLAMOUR](https://github.com/learningmatter-mit/GLAMOUR) and networkx function [graph_edit_distance](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.similarity.graph_edit_distance.html).
@@ -21,6 +18,12 @@ The distance ($d_{i,j}$) between one polymer molecule $p_i$ and another polymer 
 $d(g_1, g_2) = 1- \exp(-\frac{\alpha \cdot GED(g_1, g_2)}{(N_1 + N_2)/2})$
 
 where $g_i$ is the graph representation of one polymer molecule, $N_i$ is the number of nodes in graph $g_i$, $\alpha$ is a tunable parameter with the default value being 1. [Reference1](https://arxiv.org/abs/1808.05689), [Reference2](https://doi.org/10.1021/acs.macromol.3c00761)
+
+$f_{i,j}$ is the flow or amount of weight at $p_i$ which is transported to $q_j$, and $F=[f_{i,j} ]$ denotes all the flows between P and Q. Here,  $d_{i,j} \cdot f_{i,j}$ is the cost for each individual flow. 
+
+Once $EMD (P,Q)$ is calculated, the similarity score between $P$ and $Q$ is
+
+$S(P,Q) = 1- EMD (P,Q)$
 
 
 The repository is intended for the following use cases:
