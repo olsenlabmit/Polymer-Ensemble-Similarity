@@ -39,7 +39,7 @@ BONDS
 ```
 
 * In the **SMILES**, there are three types of components `R0`, `R1` and `cc_bond`. The details of the chemistry of `R0`, `R1` is shown in [tables](https://github.com/olsenlabmit/Polymer-Ensemble-Similarity/blob/main/tables/SMILES_repeatunit.txt). As for `cc_bond`, in the original work [GLAMOUR](https://github.com/learningmatter-mit/GLAMOUR), bond is specified for biomacromolecules. Our work makes use of part of code of GLAMOUR but our work do not need to specify the bond information for polymers' graph representation since we have already specified the connection point of repeat units by using the symbol  `*`. In our work, `cc_bond` is used only for representing the connection between repeat unit.
-Also, in order to make use of code of GLAMOUR and keep compatible, we still keep this data format. 
+Also, in order to make use of the GLAMOUR code and maintain compatibility, we still keep this data format. 
 
 * In the **MONOMERS**, since $p_1$ has 9 nodes, 9 nodes are presented with the specific repeat units.
 
