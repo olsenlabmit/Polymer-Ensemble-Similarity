@@ -1,9 +1,9 @@
 # Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance
 
 
-This repository supports the following manuscript, which has been submitted to *ACS Polymer Au* for peer-review.
+This repository supports the following manuscript, which has been submitted to *ACS Polymers Au* for peer-review.
 
-Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao, Bradley D. Olsen, Debra J. Audus (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", *ACS Polymer Au*, submitted.
+Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao, Bradley D. Olsen, Debra J. Audus (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", *ACS Polymers Au*, submitted.
 
 In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles.
 
@@ -68,7 +68,7 @@ GithubID: shijiale0609
 
 ## How to cite
 
-If you use the code, please cite our [preprint version on ChemRxiv](https://doi.org/10.26434/chemrxiv-2023-qcjkh) since our manuscript is currently under review at *ACS Polymer Au*:
+If you use the code, please cite our [preprint version on ChemRxiv](https://doi.org/10.26434/chemrxiv-2023-qcjkh) since our manuscript is currently under review at *ACS Polymers Au*:
 
 
 ```
