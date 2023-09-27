@@ -72,7 +72,7 @@ If you use the code, please cite our [preprint version on ChemRxiv](https://doi.
 
 
 ```
-@article{shi2023quantifying,
+@article{shi2023calculating,
 author = {Shi, Jiale  and Walsh, Dylan and Zou, Weizhong and Rebello, Nathan J. and Deagen, Michael E. and Fransen, Katharina A. and Gao, Xian and Olsen, Bradley D. and Audus, Debra J. },
 title = {Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance},
 journal = {ChemRxiv},
