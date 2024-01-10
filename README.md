@@ -1,9 +1,9 @@
 # Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance
 
 
-This repository supports the following manuscript, which has been submitted to *ACS Polymers Au* for peer-review.
+This repository supports the following manuscript, which has been published on [*ACS Polymers Au*](https://doi.org/10.1021/acspolymersau.3c00029).
 
-Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao, Bradley D. Olsen, Debra J. Audus (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", *ACS Polymers Au*, submitted.
+Jiale Shi, Dylan J. Walsh, Weizhong Zou, Nathan J. Rebello, Michael E. Deagen, Katharina A. Fransen, Xian Gao, Bradley D. Olsen, Debra J. Audus (2023), "Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance", *ACS Polymers Au*, 2024. [Link](https://doi.org/10.1021/acspolymersau.3c00029)
 
 In this work, we proposed the [earth mover’s distance (EMD)](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) method to quantitatively calculate the pairwise similarity score for polymer ensembles.
 
@@ -69,16 +69,16 @@ GithubID: shijiale0609
 
 ## How to cite
 
-If you use the code, please cite our [preprint version on ChemRxiv](https://doi.org/10.26434/chemrxiv-2023-qcjkh) since our manuscript is currently under review at *ACS Polymers Au*:
-
+If you use the code, please cite our paper on *ACS Polymers Au*.
 
 ```
 @article{shi2023calculating,
 author = {Shi, Jiale  and Walsh, Dylan and Zou, Weizhong and Rebello, Nathan J. and Deagen, Michael E. and Fransen, Katharina A. and Gao, Xian and Olsen, Bradley D. and Audus, Debra J. },
 title = {Calculating Pairwise Similarity of Polymer Ensembles via Earth Mover’s Distance},
-journal = {ChemRxiv},
-year = {2023},
-doi = {10.26434/chemrxiv-2023-qcjkh},
-URL = {https://doi.org/10.26434/chemrxiv-2023-qcjkh} 
+journal = {ACS Polymers Au},
+year = {2024},
+doi = {10.1021/acspolymersau.3c00029},
+URL = {https://doi.org/10.1021/acspolymersau.3c00029} 
 }
 ```
+[Preprint version on ChemRxiv](https://doi.org/10.26434/chemrxiv-2023-qcjkh) is also available.
