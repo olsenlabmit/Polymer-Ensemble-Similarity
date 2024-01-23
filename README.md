@@ -66,6 +66,7 @@ Email: jialeshi@mit.edu
 
 GithubID: shijiale0609  
  
+## Please cite our work and star this repo if it helps your research
 
 ## How to cite
 
