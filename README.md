@@ -54,7 +54,7 @@ If you cannot successfully open the Colab badge, download the notebook and uploa
 
 ## Contact
 
-Jiale Shi, PhD  
+[Jiale Shi](https://github.com/shijiale0609), PhD  
 
 Postdoctoral Associate  
 
