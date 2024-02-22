@@ -83,3 +83,6 @@ URL = {https://doi.org/10.1021/acspolymersau.3c00029}
 }
 ```
 [Preprint version on ChemRxiv](https://doi.org/10.26434/chemrxiv-2023-qcjkh) is also available.
+
+## Useful Link
+The polymer Similarity Calculation project is one of the core parts of the [Community Resource for Innovation in Polymer Technology (CRIPT)](https://criptapp.org/).
